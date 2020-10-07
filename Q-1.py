@@ -1,0 +1,7 @@
+f=open('D:/python assingment2/Q-1.txt', 'a')
+a=input('Enter the text you want to append: ')
+f.write(a)
+f.close()
+f=open('D:/python assingment2/Q-1.txt', 'r')
+print(f.read())
+f.close()
